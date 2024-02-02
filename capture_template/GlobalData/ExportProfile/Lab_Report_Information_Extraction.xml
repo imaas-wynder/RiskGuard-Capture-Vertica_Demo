@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ExportProfileRoot checksum1="279851977054093596" >
+<ExportProfile Name="Lab Report Information Extraction" DateFormat="d" NumberFormat="F" Version="1">
+  <UpdatedUtc>2023-05-31T19:34:11Z</UpdatedUtc>
+  <CommandGroupSet>
+    <CommandGroup>
+      <CommandSet />
+    </CommandGroup>
+  </CommandGroupSet>
+  <System>false</System>
+  <PackageName>Snap</PackageName>
+</ExportProfile>
+</ExportProfileRoot>

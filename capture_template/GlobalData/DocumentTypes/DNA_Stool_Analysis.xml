@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<UIMDocRoot checksum1="948442804919480009" >
+<Document Name="DNA_Stool_Analysis" DocumentType="DNA Stool Analysis" Author="OPENTEXT\smithani" UpdatedUtc="2023-07-20T16:39:45Z" Project="InformationExtraction">
+  <Fields _ID_="IndexFieldSet">
+    <IndexField Name="PatientName" Index="0" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="0" LabelText="PatientName">
+      <FieldValidation IndexFieldType="String" Required="true">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <StartSection _ID_="SectionDescriptor" Name="Segment1" LabelText="Segment1" StartScreen="true" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="PhysicianName" Index="1" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="1" LabelText="PhysicianName">
+      <FieldValidation IndexFieldType="String" Required="true">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="AccessionNumber" Index="2" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="2" LabelText="AccessionNumber">
+      <FieldValidation IndexFieldType="String" Required="true">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="DateCollected" IndexFieldType="DateTime" Index="3" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="3" LabelText="DateCollected">
+      <FieldValidation IndexFieldType="DateTime" Required="true" ViewFormat="d" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="DateReceived" IndexFieldType="DateTime" Index="4" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="4" LabelText="DateReceived">
+      <FieldValidation IndexFieldType="DateTime" Required="true" ViewFormat="d" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="PatientDOB" IndexFieldType="DateTime" Index="5" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="5" LabelText="PatientDOB">
+      <FieldValidation IndexFieldType="DateTime" Required="true" ViewFormat="d" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="DateCompleted" IndexFieldType="DateTime" Index="6" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="6" LabelText="DateCompleted">
+      <FieldValidation IndexFieldType="DateTime" Required="true" ViewFormat="d" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="LabName" Index="7" Array="false" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="7" LabelText="LabName">
+      <FieldValidation IndexFieldType="String" Required="false">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="LabAddress" Index="8" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="8" LabelText="LabAddress">
+      <FieldValidation IndexFieldType="String" Required="true">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="LabPhone" Index="9" Array="false" ConfirmKind="ConfirmOnEmpty" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="9" LabelText="LabPhone">
+      <FieldValidation IndexFieldType="String" Required="true">
+        <HighlightSuggestions>false</HighlightSuggestions>
+      </FieldValidation>
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="Pathogens_Name" Index="10" Array="true" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="10" LabelText="Name">
+      <FieldValidation IndexFieldType="String" Required="false" />
+      <StartSection _ID_="SectionDescriptor" Name="Pathogens" LabelText="Pathogens" StartScreen="false" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="Pathogens_Result" Index="11" Array="true" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="11" LabelText="Result">
+      <FieldValidation IndexFieldType="String" Required="false" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="Pathogens_Expected" Index="12" Array="true" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="12" LabelText="Expected">
+      <FieldValidation IndexFieldType="String" Required="false" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+    <IndexField Name="Pathogens_Indicator" Index="13" Array="true" IndexLevel="1" ReadOnly="false" source="Input" ListOrder="13" LabelText="Indicator">
+      <FieldValidation IndexFieldType="String" Required="false" />
+      <ExtractFirstValue>true</ExtractFirstValue>
+      <IsPopulationTrigger>false</IsPopulationTrigger>
+      <OptionsPopulatedBy></OptionsPopulatedBy>
+      <IsCalculationTarget>false</IsCalculationTarget>
+    </IndexField>
+  </Fields>
+  <DataEntryForm>
+    <FormControlSet>
+      <FormControl Name="PatientName" ControlType="TextBox" BoundIndexfield="PatientName" Rect="300,75,100,20" SectionName="Segment1" ListOrder="0" />
+      <FormControl Name="FC2" ControlType="Label" BoundIndexfield="PatientName" Rect="300,54.416666666666664,82.653333333333336,20.583333333333336" SectionName="Segment1" ListOrder="0">
+        <DataText>PatientName</DataText>
+      </FormControl>
+      <FormControl Name="PhysicianName" ControlType="TextBox" BoundIndexfield="PhysicianName" Rect="355,205,190,20" SectionName="Segment1" ListOrder="1" />
+      <FormControl Name="FC3" ControlType="Label" BoundIndexfield="PhysicianName" Rect="355,184.41666666666666,96.713333333333338,20.583333333333336" SectionName="Segment1" ListOrder="1">
+        <DataText>PhysicianName</DataText>
+      </FormControl>
+      <FormControl Name="AccessionNumber" ControlType="TextBox" BoundIndexfield="AccessionNumber" Rect="515,75,100,20" SectionName="Segment1" ListOrder="2" />
+      <FormControl Name="FC4" ControlType="Label" BoundIndexfield="AccessionNumber" Rect="515,54.416666666666664,112.52666666666667,20.583333333333336" SectionName="Segment1" ListOrder="2">
+        <DataText>AccessionNumber</DataText>
+      </FormControl>
+      <FormControl Name="DateCollected" ControlType="TextBox" BoundIndexfield="DateCollected" Rect="300,115,100,20" SectionName="Segment1" ListOrder="3" />
+      <FormControl Name="FC5" ControlType="Label" BoundIndexfield="DateCollected" Rect="300,94.416666666666657,89.343333333333334,20.583333333333336" SectionName="Segment1" ListOrder="3">
+        <DataText>DateCollected</DataText>
+      </FormControl>
+      <FormControl Name="DateReceived" ControlType="TextBox" BoundIndexfield="DateReceived" Rect="515,115,100,20" SectionName="Segment1" ListOrder="4" />
+      <FormControl Name="FC6" ControlType="Label" BoundIndexfield="DateReceived" Rect="515,94.416666666666657,87.853333333333339,20.583333333333336" SectionName="Segment1" ListOrder="4">
+        <DataText>DateReceived</DataText>
+      </FormControl>
+      <FormControl Name="PatientDOB" ControlType="TextBox" BoundIndexfield="PatientDOB" Rect="300,155,100,20" SectionName="Segment1" ListOrder="5" />
+      <FormControl Name="FC7" ControlType="Label" BoundIndexfield="PatientDOB" Rect="300,134.41666666666666,74.566666666666677,20.583333333333336" SectionName="Segment1" ListOrder="5">
+        <DataText>PatientDOB</DataText>
+      </FormControl>
+      <FormControl Name="DateCompleted" ControlType="TextBox" BoundIndexfield="DateCompleted" Rect="515,155,100,20" SectionName="Segment1" ListOrder="6" />
+      <FormControl Name="FC8" ControlType="Label" BoundIndexfield="DateCompleted" Rect="515,134.41666666666666,98.946666666666673,20.583333333333336" SectionName="Segment1" ListOrder="6">
+        <DataText>DateCompleted</DataText>
+      </FormControl>
+      <FormControl Name="LabName" ControlType="TextBox" BoundIndexfield="LabName" Rect="20,20,155,40" SectionName="Segment1" ListOrder="7" />
+      <FormControl Name="FC14" ControlType="Label" BoundIndexfield="LabName" Rect="20,-0.5833333333333357,62.370000000000005,20.583333333333336" SectionName="Segment1" ListOrder="7">
+        <DataText>LabName</DataText>
+      </FormControl>
+      <FormControl Name="LabAddress" ControlType="TextBox" BoundIndexfield="LabAddress" Rect="20,95,150,50" SectionName="Segment1" ListOrder="8" />
+      <FormControl Name="FC10" ControlType="Label" BoundIndexfield="LabAddress" Rect="20,74.416666666666657,75.296666666666667,20.583333333333336" SectionName="Segment1" ListOrder="8">
+        <DataText>LabAddress</DataText>
+      </FormControl>
+      <FormControl Name="LabPhone" ControlType="TextBox" BoundIndexfield="LabPhone" Rect="45,170,100,20" SectionName="Segment1" ListOrder="9" />
+      <FormControl Name="FC40" ControlType="Label" BoundIndexfield="LabPhone" Rect="45,149.41666666666666,64.22,20.583333333333336" SectionName="Segment1" ListOrder="9">
+        <DataText>LabPhone</DataText>
+      </FormControl>
+      <FormControl Name="Pathogens_Name" ControlType="TextBox" BoundIndexfield="Pathogens_Name" Rect="20,60,100,20" SectionName="Pathogens" ListOrder="10" />
+      <FormControl Name="FC9" ControlType="Label" BoundIndexfield="Pathogens_Name" Rect="20,39.416666666666664,41.006666666666668,20.583333333333336" SectionName="Pathogens" ListOrder="10">
+        <DataText>Name</DataText>
+      </FormControl>
+      <FormControl Name="Pathogens_Result" ControlType="TextBox" BoundIndexfield="Pathogens_Result" Rect="170,60,100,20" SectionName="Pathogens" ListOrder="11" />
+      <FormControl Name="FC11" ControlType="Label" BoundIndexfield="Pathogens_Result" Rect="170,39.416666666666664,43.07,20.583333333333336" SectionName="Pathogens" ListOrder="11">
+        <DataText>Result</DataText>
+      </FormControl>
+      <FormControl Name="Pathogens_Expected" ControlType="TextBox" BoundIndexfield="Pathogens_Expected" Rect="525,60,100,20" SectionName="Pathogens" ListOrder="12" />
+      <FormControl Name="FC12" ControlType="Label" BoundIndexfield="Pathogens_Expected" Rect="525,39.416666666666664,60.923333333333339,20.583333333333336" SectionName="Pathogens" ListOrder="12">
+        <DataText>Expected</DataText>
+      </FormControl>
+      <FormControl Name="Pathogens_Indicator" ControlType="TextBox" BoundIndexfield="Pathogens_Indicator" Rect="350,60,100,20" SectionName="Pathogens" ListOrder="13" />
+      <FormControl Name="FC13" ControlType="Label" BoundIndexfield="Pathogens_Indicator" Rect="350,39.416666666666664,60.006666666666668,20.583333333333336" SectionName="Pathogens" ListOrder="13">
+        <DataText>Indicator</DataText>
+      </FormControl>
+    </FormControlSet>
+    <FormSectionSet>
+      <FormSection Name="Segment1" LayoutType="Subform" Height="300" />
+      <FormSection Name="Pathogens" LayoutType="SubformArray" Height="155" />
+    </FormSectionSet>
+  </DataEntryForm>
+  <ValidationRuleSet />
+  <PopulationRuleSet />
+  <PdfSettings EnabledPdfCache="false" OcrEngineList="" PdfRenderingResolution="300" />
+  <ProjectType>IEE</ProjectType>
+</Document>
+</UIMDocRoot>
